@@ -1,4 +1,6 @@
 def getinput():
+    num = int(input())
+    return num
     # ******************************
     # Make your Code
     # ******************************
