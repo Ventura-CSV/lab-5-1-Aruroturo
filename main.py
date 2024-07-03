@@ -1,21 +1,21 @@
 def getinput():
-    num = int(input())
+    num = int(input("Number: "))
     return num
     # ******************************
     # Make your Code
     # ******************************
 
 
-def getsum(userval1, userval2):
-    total = userval1 + userval2
+def getsum(v1, v2):
+    total = v1 + v2
     return total
     # ******************************
     # Make your Code
     # ******************************
 
 
-def printval(userval1, userval2, total):
-    print(userval1, userval2, total)
+def printval(v1, v2, total):
+    print(f"{v1}, {v2}, {total}")
     # ******************************
     # Make your Code
     # ******************************
