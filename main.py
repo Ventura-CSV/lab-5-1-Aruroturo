@@ -6,13 +6,16 @@ def getinput():
     # ******************************
 
 
-def getsum(v1, v2):
+def getsum(userval1, userval2):
+    total = userval1 + userval2
+    return total
     # ******************************
     # Make your Code
     # ******************************
 
 
-def printval(v1, v2, total):
+def printval(userval1, userval2, total):
+    print(userval1, userval2, total)
     # ******************************
     # Make your Code
     # ******************************
